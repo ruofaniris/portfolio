@@ -64,6 +64,11 @@ h2{
 	/*text-shadow: 0px 1px 3px #4596FF;*/
 }
 
+em{
+	color: #3da9d8;
+	font-style: normal;
+}
+
 .imgfull{
 	width: 100%;
 }
@@ -169,7 +174,7 @@ a.singlelink:hover{
 
 #robotbackground.projectsec{
 	
-	height: 300px;
+	height: 350px;
 	padding-bottom: 20px;
 		
 }
@@ -289,7 +294,7 @@ a.singlelink:hover{
 
 #chairbackground.projectsec{
 	
-	height: 250px;
+	height: 300px;
 		
 }
 
@@ -829,7 +834,7 @@ img.robotbackpic{
 
 #journalbackground.projectsec{
 	
-	height: 400px;
+	height: 430px;
 		
 }
 

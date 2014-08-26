@@ -7,6 +7,10 @@ body{
 div{
 	display: block;
 }
+p{
+	font-size: 14px;
+	line-height: 25px;
+}
 
 section{
 	display: block;
@@ -57,7 +61,7 @@ h1{
 h2{
 	font-size: 1.8em;
 	margin:0 auto;
-	text-align: center;
+	text-align:left;
 	padding: 30px;
 	clear: both;
 	color: #60bde6;/*#3bacdc;*/
@@ -65,8 +69,9 @@ h2{
 }
 
 em{
-	color: #3da9d8;
+	/*color: #3da9d8;*/
 	font-style: normal;
+	font-weight: bold;
 }
 
 .imgfull{
@@ -115,10 +120,18 @@ a.singlelink:hover{
 }
 
 .projectname:hover{
-	background-color: #d9d7d6;
+	background-color: #fff;/*#d9d7d6*/
 	opacity: 0.8;
 	color: black;
 	font-weight: bolder;
+
+	font-size: 20px;
+	
+
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: font-size 0.2s, opacity 0.2s,-webkit-transform 0.2s;
+	
 
 }
 
@@ -148,7 +161,7 @@ a.singlelink:hover{
 .robotcontainer{
 	width: 100%;
 	max-width:960px;/*960/960*/
-	height: 2000px;
+	height: 2150px;
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
@@ -160,7 +173,7 @@ a.singlelink:hover{
 #robotheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
+	/*text-align: center;*/
 		
 }
 
@@ -187,17 +200,18 @@ a.singlelink:hover{
 	
 }
 
+
 #robotbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
 
 #robotlogo.projectsec{
 	
-	height: 850px;
+	height: 979px;
 	padding-bottom: 20px;
 		
 }
@@ -214,8 +228,8 @@ a.singlelink:hover{
 
 #robotlogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -227,13 +241,13 @@ a.singlelink:hover{
 	font-size: 1.3em;
 	color: #3bacdc;
 	float: left;
-	text-align: center;
+	/*text-align: center;*/
 	
 }
 
 #robotlogo.projectsec .logoimg{
 	/*margin: 10px;*/
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 	/*padding-left: 10%;
 	padding-right:10%;*/ 
@@ -262,6 +276,49 @@ a.singlelink:hover{
 	
 }
 
+/*----add info bar------*/
+
+.robotinfobar{
+	width: 200px;
+	height: 480px;
+	background-color: rgba(191, 232, 250,0.3);
+
+	float: left;
+	padding-top: 30px;
+}
+
+#robotinfo .head{
+	font-size: 14px;
+	font-weight: bold;
+	color: #60bde6;
+	padding-left: 10px;
+}
+
+#robotinfo .info{
+	font-size: 12px;
+	/*color: white;*/
+	padding-left: 10px;
+}
+
+
+#robotinfo.projectsec{
+	
+	height: 1350px;
+	padding-bottom: 20px;
+	/*background-color: yellow;*/
+		
+}
+
+#robotinfo .content{
+	width: 740px;
+	/*height: 00px;*/
+	/*background-color: blue;*/
+	float: left;
+}
+
+
+
+/*---info bar done-----*/
 
 /*--------------  Robot Updated Done----------------*/
 
@@ -270,7 +327,7 @@ a.singlelink:hover{
 .chaircontainer{
 	width: 100%;
 	max-width:960px;/*960/960*/
-	height: 2600px;
+	height: 2650px;
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
@@ -280,7 +337,7 @@ a.singlelink:hover{
 #chairheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
+	/*text-align: center;*/
 		
 }
 
@@ -295,6 +352,7 @@ a.singlelink:hover{
 #chairbackground.projectsec{
 	
 	height: 300px;
+	padding-bottom: 20px;
 		
 }
 
@@ -308,8 +366,8 @@ a.singlelink:hover{
 
 #chairbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -330,8 +388,8 @@ a.singlelink:hover{
 
 #chairlogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -343,7 +401,7 @@ a.singlelink:hover{
 	font-size: 1.3em;
 	color: #3bacdc;
 	float: left;
-	text-align: center;
+	text-align: left;
 	
 }
 
@@ -454,6 +512,50 @@ a.singlelink:hover{
 	
 }
 
+/*----Chair add info bar------*/
+
+.chairinfobar{
+	width: 200px;
+	height: 380px;
+	background-color: rgba(191, 232, 250,0.3);
+
+	float: left;
+	padding-top: 30px;
+}
+
+#chairinfo .head{
+	font-size: 14px;
+	font-weight: bold;
+	color: #60bde6;
+	padding-left: 10px;
+}
+
+#chairinfo .info{
+	font-size: 12px;
+	/*color: white;*/
+	padding-left: 10px;
+}
+
+
+#chairinfo.projectsec{
+	
+	height: 981px;
+	padding-bottom: 20px;
+	/*background-color: yellow;*/
+		
+}
+
+#chairinfo .content{
+	width: 740px;
+	/*height: 00px;*/
+	/*background-color: blue;*/
+	float: left;
+}
+
+
+
+/*---info bar done-----*/
+
 
 /*--------------  Chair Done----------------*/
 
@@ -489,20 +591,66 @@ a.singlelink:hover{
 	position: relative;
 	
 }
+
+/*----journal add info bar------*/
+
+.journalinfobar{
+	width: 200px;
+	height: 480px;
+	background-color: rgba(191, 232, 250,0.3);
+
+	float: left;
+	padding-top: 30px;
+}
+
+#journalinfo .head{
+	font-size: 14px;
+	font-weight: bold;
+	color: #60bde6;
+	padding-left: 10px;
+}
+
+#journalinfo .info{
+	font-size: 12px;
+	/*color: white;*/
+	padding-left: 10px;
+}
+
+
+#journalinfo.projectsec{
+	
+	height: 1901px;
+	padding-bottom: 20px;
+	/*background-color: yellow;*/
+		
+}
+
+#journalinfo .content{
+	width: 740px;
+	/*height: 00px;*/
+	/*background-color: blue;*/
+	float: left;
+}
+
+
+
+/*---info bar done-----*/
+
+
 /*----------------- Journal Pic Done------------------*/
 
 /*----------------- Single Serve ------------------*/
 
 #singlelogo.projectsec{
 	
-	height: 650px;
+	height: 850px;
 		
 }
 
 .singlecontainer{
 	width: 100%;
 	max-width:960px;/*960/960*/
-	height: 1050px;
+	height: 1250px;
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
@@ -606,10 +754,40 @@ h6{
 
 }
 
-h6 span{
+span{
 	color: #3bacdc;
 	
 }
+
+/*@-webkit-keyframes 'logo'{
+	0%{
+
+	}
+	
+	
+	50%{
+		font-size: 2.3em;
+	}
+	100%{
+		font-size: 2.2em;
+	}
+}
+
+
+h6:hover {
+	
+	-webkit-animation-name:'logo';
+	-webkit-animation-duration:0.5s;
+	-webkit-animation-timing-function:linear;
+	-webkit-animation-delay:0s;
+	-webkit-animation-iteration-count:1;
+	-webkit-animation-direction:alternate;
+
+}*/
+
+
+
+
 /*-------------- sitelogo done----------------*/
 
 }
@@ -677,17 +855,17 @@ img.sitelogo{
 }
 
 .projectname{
-	width: 300px;
-	height: 300px;
+	width: 220px;
+	height: 220px;
 	position: absolute;
-	left: 0;
-	top: 0;
+	left: 40px;
+	top: 40px;
 	z-index: 2;
 	/*background-color: red;*/
 
-	line-height: 300px;
-	font-size: 25px;
-	line-height: 300px;
+	line-height: 220px;
+	font-size: 0px;
+
 	margin: 0 auto;
 
 	text-align: center;
@@ -817,7 +995,7 @@ img.robotbackpic{
 .journalcontainer{
 	width: 100%;
 	max-width:960px;/*960/960*/
-	height: 2750px;
+	height: 2700px;
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
@@ -834,7 +1012,8 @@ img.robotbackpic{
 
 #journalbackground.projectsec{
 	
-	height: 430px;
+	height: 420px;
+	padding-bottom: 20px;
 		
 }
 
@@ -848,8 +1027,8 @@ img.robotbackpic{
 
 #journalbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -870,8 +1049,8 @@ img.robotbackpic{
 
 #journallogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -989,7 +1168,7 @@ img.robotbackpic{
 
 #journalsubcover.projectsec{
 	
-	height: 720px;
+	height: 679px;
 		
 }
 
@@ -1003,8 +1182,8 @@ img.robotbackpic{
 
 #journalsubcover.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -1021,8 +1200,10 @@ img.robotbackpic{
 }
 
 .subcoversplit{
-	width: 100%;
-	max-width: 500px;
+	width: 80%;
+	padding-left: 10%;
+	margin: 0 auto;
+	
 }
 
 
@@ -1063,13 +1244,13 @@ img.robotbackpic{
 #singleheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
+	/*text-align: center;*/
 		
 }
 
 #singlebackground.projectsec{
 	
-	height: 280px;
+	height: 271px;
 		
 }
 
@@ -1083,8 +1264,8 @@ img.robotbackpic{
 
 #singlebackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -1105,8 +1286,8 @@ img.robotbackpic{
 
 #singlelogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
@@ -1151,6 +1332,50 @@ a.singlelink{
 
 }
 
+/*----single add info bar------*/
+
+.singleinfobar{
+	width: 200px;
+	height: 240px;
+	background-color: rgba(191, 232, 250,0.3);
+
+	float: left;
+	padding-top: 30px;
+}
+
+#singleinfo .head{
+	font-size: 14px;
+	font-weight: bold;
+	color: #60bde6;
+	padding-left: 10px;
+}
+
+#singleinfo .info{
+	font-size: 12px;
+	/*color: white;*/
+	padding-left: 10px;
+}
+
+
+#singleinfo.projectsec{
+	
+	height: 251px;
+	padding-bottom: 20px;
+	/*background-color: yellow;*/
+		
+}
+
+#singleinfo .content{
+	width: 740px;
+	/*height: 00px;*/
+	/*background-color: blue;*/
+	float: left;
+}
+
+
+
+/*---info bar done-----*/
+
 
 /*--------------  Single Serve Done----------------*/
 
@@ -1176,9 +1401,9 @@ a.singlelink{
 
 }
 
-#yobackground .projectsec{
+#yobackground.projectsec{
 	
-	height: 1500px;
+	height: 271px;
 		
 }
 
@@ -1192,11 +1417,55 @@ a.singlelink{
 
 #yobackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 95%;
+	padding-left: 30px;
 	margin: 0 auto;
 	
 }
+
+/*----yo add info bar------*/
+
+.yoinfobar{
+	width: 200px;
+	height: 240px;
+	background-color: rgba(191, 232, 250,0.3);
+
+	float: left;
+	padding-top: 30px;
+}
+
+#yoinfo .head{
+	font-size: 14px;
+	font-weight: bold;
+	color: #60bde6;
+	padding-left: 10px;
+}
+
+#yoinfo .info{
+	font-size: 12px;
+	/*color: white;*/
+	padding-left: 10px;
+}
+
+
+#yoinfo.projectsec{
+	
+	height: 251px;
+	padding-bottom: 20px;
+	/*background-color: yellow;*/
+		
+}
+
+#yoinfo .content{
+	width: 740px;
+	/*height: 00px;*/
+	/*background-color: blue;*/
+	float: left;
+}
+
+
+
+/*---info bar done-----*/
 
 /*--------------  Yo Done----------------*/
 

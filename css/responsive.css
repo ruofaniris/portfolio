@@ -1,7 +1,8 @@
 @media only screen and (min-width: 640px) and (max-width: 960px){
 .navcontainer{
 	height: 80px;
-	width: 640px;
+	width: 90%;
+	min-width: 640px !important;
 	margin: 0 auto;
 	/*background-color: red;*/
 	position: relative;
@@ -64,7 +65,8 @@
 }
 
 .footercontainer{
-	width: 640px;
+	width: 90%;
+	min-width: 640px !important;
 	height: 150px;
 	margin: 0 auto;
 }
@@ -115,19 +117,23 @@ section{
 }
 
 .robotcontainer{
-	width: 100%;
-	max-width:960px;/*960/960*/
-	height: 1900px;
+	width: 90%;
+	min-width:640px !important;
+	/*height: 1900px;*/
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
 	
 }
 
+.contenthead{
+	padding-left: 10px;
+}
+
 #robotheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
+	/*text-align: center;*/
 		
 }
 
@@ -156,8 +162,8 @@ section{
 
 #robotbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 100%;
+	padding-left: 10px;
 	margin: 0 auto;
 	
 }
@@ -179,8 +185,8 @@ section{
 
 #robotlogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 100%;
+	padding-left: 10px;
 	margin: 0 auto;
 	
 }
@@ -192,7 +198,7 @@ section{
 	font-size: 1.3em;
 	color: #3bacdc;
 	float: left;
-	text-align: center;
+	
 	
 }
 
@@ -227,15 +233,23 @@ section{
 	
 }
 
+/*----add info bar------*/
+
+.robotinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
 
 /*--------------  Robot Updated Done----------------*/
 
 /*--------------  Chair  ----------------*/
 
 .chaircontainer{
-	width: 100%;
-	max-width:960px;/*960/960*/
-	height: 2600px;
+	width: 90%;
+	min-width:640px !important;
+	/*height: 2600px;*/
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
@@ -245,7 +259,7 @@ section{
 #chairheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
+	/*text-align: center;*/
 		
 }
 
@@ -259,7 +273,8 @@ section{
 
 #chairbackground.projectsec{
 	
-	height: 250px;
+	/*height: 250px;*/
+	padding-bottom: 20px;
 		
 }
 
@@ -273,15 +288,16 @@ section{
 
 #chairbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 100%;
+	padding-left: 10px;
 	margin: 0 auto;
 	
 }
 
 #chairlogo.projectsec{
 	
-	height: 680px;
+	height: 700px;
+	padding-bottom: 20px;
 		
 }
 
@@ -295,8 +311,8 @@ section{
 
 #chairlogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 100%;
+	padding-left: 10px;
 	margin: 0 auto;
 	
 }
@@ -424,11 +440,27 @@ img.chairstructurepic{
 	max-width: 250px;
 }
 
+/*----add info bar------*/
+
+.chairinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
 
 /*--------------  Chair Done----------------*/
 
 
 /*----------------- Journal Pic------------------*/
+
+.journalcontainer{
+	width: 90%;
+	min-width:640px !important;
+	margin: 0 auto;
+	padding-top: 80px;
+	
+}
 
 #journallogo.projectsec .logoimg{
 	
@@ -440,6 +472,35 @@ img.chairstructurepic{
 	color: #3bacdc;
 	float: left;
 	text-align: center;
+	
+}
+
+#journalbackground.projectsec {
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#journalbackground.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
+	
+}
+
+#journallogo.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
+	
+}
+
+#journalsubcover.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
 	
 }
 
@@ -464,7 +525,61 @@ img.chairstructurepic{
 	position: relative;
 	
 }
+
+/*----Journal add info bar------*/
+
+.journalinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
 /*----------------- Journal Pic Done------------------*/
+
+/*----------------- Yo ------------------*/
+
+
+
+.yocontainer{
+	width: 90%;
+	min-width:640px !important;
+	margin: 0 auto;
+	padding-top: 80px;
+	
+}
+
+#yoinfo .content{
+	width:100%;
+	height: auto;
+	
+}
+
+#yobackground.projectsec {
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#yobackground.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
+	
+}
+
+
+
+/*----add info bar------*/
+
+.yoinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
+
+/*----------------- yo Done------------------*/
+
 
 /*----------------- Single Serve------------------*/
 
@@ -482,21 +597,50 @@ img.chairstructurepic{
 		
 }
 .singlecontainer{
-	width: 100%;
-	max-width:960px;/*960/960*/
-	
-	/*background-color: black;*/
+	width: 90%;
+	min-width: 640px !important;
 	margin: 0 auto;
 	padding-top: 80px;
 	padding-bottom: 20px;
 	
 }
+
+#singleinfo .content{
+	width:100%;
+	height: auto;
+	
+}
+
+#singlebackground.projectsec {
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#singlebackground.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
+	
+}
+
+
+/*----add info bar------*/
+
+.singleinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
+
 /*----------------- Single Serve Done------------------*/
 
 /*--------------  about  ----------------*/
 
 .aboutcontainer{
-	width: 640px;
+	width: 90%;
+	min-width:640px !important;
 	
 	height: 700px;
 	/*background-color: black;*/
@@ -506,15 +650,6 @@ img.chairstructurepic{
 }
 
 
-
-.projectsec{
-	width: 100%;
-	max-width: 960px;
-	/*height: 500px;*/
-	/*background-color: red;*/
-
-}
-
 #aboutbackground .projectsec{
 	
 	height: 500px;
@@ -522,7 +657,7 @@ img.chairstructurepic{
 }
 
 #aboutbackground .content{
-	width: 640px;
+	width: 100%;
 	margin: 0 auto;
 	/*background-color: yellow;*/
 	/*position: relative;*/
@@ -607,17 +742,20 @@ h6 span{
 
 .navcontainer{
 	height: 80px;
-	width: 320px;
+	width: 90%;
+	min-width: 320px;
 	margin: 0 auto;
 	/*background-color: red;*/
 	position: relative;
 	
 }
 
+.navbar{
+	width: 80px;
+}
+
 .portfoliocontainer{
 	width: 320px;
-	height: 4300px;/*2700+320*5*/
-	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
 	
@@ -625,7 +763,7 @@ h6 span{
 
 .mainnav{
 	height: 20px;
-	width: 80px;/*120/960*/
+	width: 80px;
 	float: left;
 	background-color: #9bcce6;/*c9e7f7;*/
 	line-height: 20px;
@@ -684,7 +822,8 @@ section{
 #robotheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
+	text-align: left;
+	padding-left: 30px;
 		
 }
 
@@ -694,6 +833,10 @@ section{
 	/*height: 500px;*/
 	/*background-color: red;*/
 
+}
+
+.contenthead{
+	padding-left: 40px;
 }
 
 #robotbackground.projectsec{
@@ -713,8 +856,8 @@ section{
 
 #robotbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 88%;
+	padding-left: 40px;
 	margin: 0 auto;
 	
 }
@@ -736,8 +879,8 @@ section{
 
 #robotlogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 90%;
+	padding-left: 40px;
 	margin: 0 auto;
 	
 }
@@ -749,7 +892,7 @@ section{
 	font-size: 1.3em;
 	color: #3bacdc;
 	float: left;
-	text-align: center;
+	
 	
 }
 
@@ -784,6 +927,14 @@ section{
 	
 }
 
+/*----add info bar------*/
+
+.robotinfobar{
+	display: none;
+}
+
+
+/*---info bar done-----*/
 
 /*--------------  Robot Updated Done----------------*/
 
@@ -793,7 +944,7 @@ section{
 .chaircontainer{
 	width: 100%;
 	max-width:960px;/*960/960*/
-	height: 2600px;
+	/*height: 2600px;*/
 	/*background-color: black;*/
 	margin: 0 auto;
 	padding-top: 80px;
@@ -803,8 +954,8 @@ section{
 #chairheader.projectsec{
 	
 	height: 100px;
-	text-align: center;
-		
+	text-align: left;
+	padding-left: 30px;
 }
 
 .projectsec{
@@ -817,7 +968,8 @@ section{
 
 #chairbackground.projectsec{
 	
-	height: 250px;
+	/*height: 250px;*/
+	padding-bottom: 20px;
 		
 }
 
@@ -831,15 +983,16 @@ section{
 
 #chairbackground.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 88%;
+	padding-left: 40px;
 	margin: 0 auto;
 	
 }
 
 #chairlogo.projectsec{
 	
-	height: 680px;
+	height: 700px;
+	padding-bottom: 20px;
 		
 }
 
@@ -853,8 +1006,8 @@ section{
 
 #chairlogo.projectsec .text{
 	margin: 10px;
-	width: 70%;
-	padding-left: 15%;
+	width: 100%;
+	padding-left: 10px;
 	margin: 0 auto;
 	
 }
@@ -982,9 +1135,23 @@ img.chairstructurepic{
 	max-width: 250px;
 }
 
+/*----add info bar------*/
+
+.chairinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
 /*--------------  Chair Done----------------*/
 
 /*----------------- Journal Pic------------------*/
+
+#journalheader.projectsec {
+height: 100px;
+text-align: left;
+padding-left: 30px;
+}
 
 #journallogo.projectsec .logoimg{
 	
@@ -1009,32 +1176,136 @@ img.chairstructurepic{
 	width: 100%;
 	max-width: 500px;
 }
+
+/*----add info bar------*/
+
+.journalinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
+
 /*----------------- Journal Pic Done------------------*/
+
+/*----------------- Yo ------------------*/
+
+
+
+.yocontainer{
+	width: 90%;
+	min-width:320px !important;
+	margin: 0 auto;
+	padding-top: 80px;
+	
+}
+
+#yoheader.projectsec {
+height: 100px;
+text-align: left;
+padding-left: 0px;
+}
+
+#yoinfo .content{
+	width:100%;
+	height: auto;
+	
+}
+
+#yobackground.projectsec {
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#yobackground.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
+	
+}
+
+#yobackground.projectsec .contenthead {
+	padding-left: 10px;
+}
+
+
+
+/*----add info bar------*/
+
+.yoinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
+
+/*----------------- yo Done------------------*/
+
 
 /*----------------- Single Serve------------------*/
 
-#singlelogo.projectsec{
-	
-	
-	height: 450px;
-		
-}
 .singlecontainer{
-	width: 100%;
-	max-width:960px;/*960/960*/
-	
-	/*background-color: black;*/
+	width: 90%;
+	min-width:320px !important;
 	margin: 0 auto;
 	padding-top: 80px;
-	padding-bottom: 20px;
 	
 }
+
+#singleheader.projectsec {
+height: 100px;
+text-align: left;
+padding-left: 0px;
+}
+
+#singleinfo .content{
+	width:100%;
+	height: auto;
+	
+}
+
+#singlebackground.projectsec {
+	height: auto;
+	padding-bottom: 20px;
+}
+
+#singlebackground.projectsec .text{
+	margin: 10px;
+	width: 100%;
+	padding-left: 10px;
+	margin: 0 auto;
+	
+}
+
+#singlebackground.projectsec .contenthead {
+	padding-left: 10px;
+}
+
+#singlelogo.projectsec {
+	height: 500px;
+}
+
+#singlelogo.projectsec .contenthead{
+	padding-left: 10px;
+}
+
+/*----add info bar------*/
+
+.singleinfobar{
+	display: none;
+}
+
+/*---info bar done-----*/
+
+
 /*----------------- Single Serve Done------------------*/
 
 /*--------------  about  ----------------*/
 
 .aboutcontainer{
-	width: 320px;
+	width: 90%;
+	min-width: 320px !important;
 	
 	height: 1050px;
 	/*background-color: black;*/
@@ -1092,7 +1363,7 @@ img.chairstructurepic{
 
 
 .selfimg2{
-	width: 320px;
+	width: 80%;
 	/*float: right;*/
 	/*margin-left: 10%;*/
 	margin-left: 0;
@@ -1105,7 +1376,7 @@ img.chairstructurepic{
 }
 
 .selftext{
-	width: 320px;
+	width: 80%;
 	/*float: right;*/
 	margin:0;
 	/*position: absolute;
@@ -1157,7 +1428,8 @@ h6 span{
 }
 
 .footercontainer{
-	width: 320px;
+	width: 90%;
+	min-width: 320 !important;
 	height: 150px;
 	margin: 0 auto;
 }

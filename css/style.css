@@ -86,7 +86,7 @@ em{
 	top: 0;
 	left: 0;
 	z-index: 99;
-	background-color: #9bcce6;/*#c9e7f7*/
+	background-color: #9bcce6;/*#8bc8e2*/
 	margin: 0 auto;
 	border-bottom: 1px solid #d9d7d6; 
 
@@ -102,6 +102,8 @@ a.mainnav:hover, i:hover{
 	color: #3bacdc;
 	font-weight: bolder;
 	text-shadow: 0px 3px 3px white;
+	-webkit-transition: all 0.1s ease-in;
+	transition: all 0.1s ease-in;
 }
 
 a.inthepage{
@@ -753,23 +755,31 @@ h6{
 	text-shadow:0px 1px 3px #4596ff;
 
 }
+/*
+h6:hover{
+	
+	color:#60bde6;
+	-webkit-transition: color 0.15s ease-in;
+	transition: color 0.15s ease-in;
+
+
+}*/
 
 span{
 	color: #3bacdc;
 	
 }
 
-/*@-webkit-keyframes 'logo'{
+@-webkit-keyframes 'logo'{
 	0%{
-
+		color: white;
 	}
-	
 	
 	50%{
-		font-size: 2.3em;
+		color:#3da9d8;
 	}
 	100%{
-		font-size: 2.2em;
+		color:white;
 	}
 }
 
@@ -777,13 +787,13 @@ span{
 h6:hover {
 	
 	-webkit-animation-name:'logo';
-	-webkit-animation-duration:0.5s;
+	-webkit-animation-duration:0.35s;
 	-webkit-animation-timing-function:linear;
 	-webkit-animation-delay:0s;
 	-webkit-animation-iteration-count:1;
 	-webkit-animation-direction:alternate;
 
-}*/
+}
 
 
 

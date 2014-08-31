@@ -79,10 +79,10 @@
 }
 
 #about .intro{
-	width: 400px;
+	width: 420px;
 	padding-left: 50px;
 	padding-right: 0px;
-	padding-top: 3px;
+	padding-top: 0px;
 	float: left;
 }
 

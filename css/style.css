@@ -375,7 +375,7 @@ section{
 	width: 650px;
 	padding-left: 150px;
 	padding-right: 0px;
-	padding-top: 80px;
+	padding-top: 0px;/*80*/
 	float: left;
 }
 
@@ -433,6 +433,140 @@ section{
 	transition: all 100ms ease-in;
 	
 }
+
+#contact i{
+	position: relative;
+}
+
+
+#fbb:hover #fbintro{
+	opacity: 1;
+
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	
+}
+
+#fbintro{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: rgb(59,163,206);
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+
+	text-align: center;
+
+	border: 1px rgb(59,163,206) dashed ;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+	
+	position: absolute;
+	top: 50px;
+	left: -16px;
+	z-index: 80;
+	opacity: 0;
+}
+
+#lib:hover #liintro{
+	opacity: 1;
+
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	
+}
+
+#liintro{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: rgb(59,163,206);
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+
+	text-align: center;
+
+	border: 1px rgb(59,163,206) dashed ;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+	
+	position: absolute;
+	top: 50px;
+	left: -16px;
+	z-index: 80;
+	opacity: 0;
+}
+
+#gpb:hover #gpintro{
+	opacity: 1;
+
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	
+}
+
+#gpintro{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: rgb(59,163,206);
+	width: 70px;
+	height: 20px;
+	line-height: 20px;
+
+	text-align: center;
+
+	border: 1px rgb(59,163,206) dashed ;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+	
+	position: absolute;
+	top: 50px;
+	left: -16px;
+	z-index: 80;
+	opacity: 0;
+}
+
+#mb:hover #mintro{
+	opacity: 1;
+
+	-webkit-transition: all 100ms ease-in-out;
+	-moz-transition: all 100ms ease-in;
+	-ms-transition: all 100ms ease-in;
+	-o-transition: all 100ms ease-in;
+	transition: all 100ms ease-in;
+	
+}
+
+#mintro{
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: rgb(59,163,206);
+	width: 210px;
+	height: 42px;
+	line-height: 20px;
+
+	text-align: center;
+
+	border: 1px rgb(59,163,206) dashed ;
+	-webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+	
+	position: absolute;
+	top: 50px;
+	left: -82px;
+	z-index: 80;
+	opacity: 0;
+}
+
 
 
 /*----------- Contact Done-------------*/

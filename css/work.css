@@ -120,6 +120,13 @@ html{
 	float: left;
 }
 
+#singleimg{
+	border: none !important;
+}
+
+#singlepic img:hover{
+	opacity: 0.8;
+}
 
 /*----------- Section 2 Done-------------*/
 /*----------- video -------------*/

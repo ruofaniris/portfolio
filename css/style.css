@@ -379,6 +379,20 @@ section{
 	float: left;
 }
 
+/*#about a{
+	color: rgb(125,125,125,0.5)!important;
+	border-bottom: 1px dashed rgba(125,125,125,1);
+}
+
+#about a:visited{
+	color:  rgb(125,125,125,0.5) !important;
+}
+
+#about a:hover{
+	color: rgb(59,163,206);
+	border-bottom: 1px dashed rgb(59,163,206);
+}
+*/
 
 
 /*----------- About Done-------------*/

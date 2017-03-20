@@ -11,6 +11,7 @@
                 url('../img/Loading.gif')
                 50% 50%
                 no-repeat;
+    background-color: white;
 }
 
 body.loading {

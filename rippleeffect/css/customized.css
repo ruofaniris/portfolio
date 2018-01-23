@@ -1,0 +1,20 @@
+body{
+  background: white;
+}
+button{
+  width: 48px;
+  height: 48px;
+}
+i{
+  background: url("../img/stroke.png");
+  width: 48px!important;
+  height: 48px;
+}
+
+i:hover{
+  background: url("../img/filled.png");
+}
+
+.cbutton--effect-boris::after{
+  background:rgba(246,183,2,0.3)
+}
